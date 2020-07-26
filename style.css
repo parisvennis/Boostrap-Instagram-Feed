@@ -1,0 +1,44 @@
+.row div {
+    text-align:center;
+}
+.row img {
+    width: 100%;
+    /* max-width: 100%; */
+    height: auto;
+    object-fit: contain;
+    margin: 1px;
+}
+.card {
+    width: 100%
+}
+.container {
+    background-color: lightgray;
+}
+.card-deck {
+    border: 1px solid red;
+
+}
+.modal-body {
+    width: 100%;
+    border: 1px solid red;
+}
+
+textarea {
+    width: 100%;
+}
+.modalicons {
+    border: 1px solid green;
+}
+.icon {
+    border:1px solid lightgrey;
+    border-radius: 2px;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 2px;
+    padding: 2px auto;
+    text-align: center;
+}
+.card-body {
+    border: 1px solid blue;
+}
