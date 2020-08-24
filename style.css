@@ -9,11 +9,14 @@
     margin: 1px;
 }
 .card {
-    width: 100%
+    min-width: 300px;
 }
-.container {
-    background-color: lightgray;
+#nav-profile {
+     background-color: lightgray;
+     justify-content: center;
+     text-align: center;
 }
+
 .card-deck {
     border: 1px solid red;
 
@@ -29,6 +32,15 @@ textarea {
 .modalicons {
     border: 1px solid green;
 }
+
+.card-deck {
+min-width: 600px;
+margin-left: 0px;
+display: flex;
+justify-content: center;
+flex-flow: column; 
+}
+
 .icon {
     border:1px solid lightgrey;
     border-radius: 2px;
